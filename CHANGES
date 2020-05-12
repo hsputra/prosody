@@ -1,0 +1,52 @@
+0.11.0
+======
+
+**2018-11-18**
+
+New features
+------------
+
+-   Rewritten more extensible MUC module
+    -   Store inactive rooms to disk
+    -   Store rooms to disk on shutdown
+    -   Voice requests
+    -   Tombstones in place of destroyed rooms
+-   PubSub features
+    -   Persistence
+    -   Affiliations
+    -   Access models
+    -   "publish-options"
+-   PEP now uses our pubsub code and now shares the above features
+-   Asynchronous operations
+-   Busted for tests
+-   mod\_muc\_mam (XEP-0313 in groupchats)
+-   mod\_vcard\_legacy (XEP-0398)
+-   mod\_vcard4 (XEP-0292)
+-   mod\_csi, mod\_csi\_simple (XEP-0352)
+-   New experimental network backend "epoll"
+
+0.10.0
+======
+
+**2017-10-02**
+
+New features
+------------
+
+-   Rewritten SQL storage module with Archive support
+-   SCRAM-SHA-1-PLUS
+-   `prosodyctl check`
+-   Statistics
+-   Improved TLS configuration
+-   Lua 5.2 support
+-   mod\_blocklist (XEP-0191)
+-   mod\_carbons (XEP-0280)
+-   Pluggable connection timeout handling
+-   mod\_websocket (RFC 7395)
+-   mod\_mam (XEP-0313)
+
+Removed
+-------
+
+-   mod\_privacy (XEP-0016)
+-   mod\_compression (XEP-0138)
